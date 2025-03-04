@@ -1,0 +1,85 @@
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* Full Page Centering */
+body {
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+/* Main App Container */
+#app {
+    background: white;
+    padding: 20px;
+    width: 60%;
+    max-width: 800px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+/* Header */
+h1 {
+    font-size: 24px;
+    margin-bottom: 15px;
+    color: #333;
+    text-align: center;
+}
+
+/* Form Styling */
+#news-form {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 15px;
+}
+
+#news-topic {
+    flex: 1;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Button */
+button {
+    background: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover {
+    background: #0056b3;
+}
+
+/* Summary Output Box */
+#newsSummary {
+    background: #f9f9f9;
+    padding: 15px;
+    border-left: 4px solid #007bff;
+    font-size: 16px;
+    color: #333;
+    white-space: pre-wrap; /* Keeps formatting */
+}
+
+/* Ensuring Links Look Proper */
+#newsSummary a {
+    color: #007bff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+#newsSummary a:hover {
+    text-decoration: underline;
+}
